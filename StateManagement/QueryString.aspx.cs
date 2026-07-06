@@ -17,9 +17,9 @@ namespace StateManagement
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             string name = txtUserName.Text;
-            string Passwors = txtPassword.Text;
+            string Password = txtPassword.Text;
             
-            Response.Redirect("QueryString1.aspx?username=" + name + "&password=" + Passwors);
+            Response.Redirect("QueryString1.aspx?username=" + name + "&password=" + Password);
         }
     }
 }
