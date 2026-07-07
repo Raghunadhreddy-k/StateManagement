@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cookies.aspx.cs" Inherits="StateManagement.Cookies" %>
+﻿y<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cookies.aspx.cs" Inherits="StateManagement.Cookies" %>
 
 <!DOCTYPE html>
 
@@ -28,7 +28,7 @@
     </tr>
     <tr>
         <td>
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+            <asp:Button ID="btnSubmit" runat="server" Text="Submit"/>
         </td>
     </tr>
           </table>

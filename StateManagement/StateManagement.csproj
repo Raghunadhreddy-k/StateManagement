@@ -71,6 +71,7 @@
     <Content Include="QueryString.aspx" />
     <Content Include="QueryString1.aspx" />
     <Content Include="Result.aspx" />
+    <Content Include="SessionState.aspx" />
     <Content Include="StateManagement.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -103,6 +104,13 @@
     </Compile>
     <Compile Include="Result.aspx.designer.cs">
       <DependentUpon>Result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionState.aspx.cs">
+      <DependentUpon>SessionState.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionState.aspx.designer.cs">
+      <DependentUpon>SessionState.aspx</DependentUpon>
     </Compile>
     <Compile Include="StateManagement.aspx.cs">
       <DependentUpon>StateManagement.aspx</DependentUpon>

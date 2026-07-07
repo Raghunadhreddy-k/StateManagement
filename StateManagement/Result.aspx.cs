@@ -12,7 +12,7 @@ namespace StateManagement
         protected void Page_Load(object sender, EventArgs e)
         {
             HttpCookie reqcookie = Request.Cookies["UserInfo"];
-            if(reqcookie != null)
+            if (reqcookie != null)
             {
                 string username = reqcookie["username"];
                 string password = reqcookie["password"];
